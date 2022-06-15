@@ -1,100 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Inter:wght@600&display=swap");
+
 .body {
-    background-color: rgb(28, 28, 28);
-    width: 1200px;
-    margin: 0 auto;
+  background-color: rgb(28, 28, 28);
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 42px;
 }
 
 .main {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 32px;
-    color: white;
-    margin-top: 73px;
-    display: flex;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 32px;
+  color: white;
+  margin-top: 73px;
+  display: flex;
 }
 
 .container {
-    max-width: 700px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 61px;
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 61px;
 }
 
 .box {
-    display: flex;
-    width: 160px;
-    height: 160px;
-    border-radius: 24px;
-    margin: 13px;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  width: 160px;
+  height: 160px;
+  border-radius: 24px;
+  margin: 13px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #737373;
 }
 
-.user img {
-    width: 160px;
-    height: 160px;
-    border-radius: 8px;
+.box :hover {
+  color: white;
+  transition: 0.3s;
 }
 
 .user :hover {
-    border: 4px solid;
-    color: aliceblue;
+  border: 3px solid;
+  border-color: rgb(155, 156, 156);
+  transition: 0.2s;
+}
+
+.user img {
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
 }
 
 .prenome {
-    display: flex;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-size: 14px;
-    color: #9c9c9c;
-    font-weight: bold;
-    list-style: none;
-    margin-top: 16px;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
+  display: flex;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+
+  font-weight: bold;
+  list-style: none;
+  margin-top: 16px;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
 }
 
 .footer {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: bold;
-    color: white;
-    font-size: 16px;
-    width: 206px;
-    height: 50px;
-    background-color: transparent;
-    border-radius: 8px;
-    margin-bottom: 103px;
-    margin-top: 102px;
-    border-color: white;
-    text-decoration: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  width: 206px;
+  height: 50px;
+  background-color: transparent;
+  border-radius: 8px;
+  margin-bottom: 103px;
+  margin-top: 102px;
+  border-color: white;
+  text-decoration: none;
 }
 
 .footer :hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
 }
-a {text-decoration: none;}
+
+a {
+  text-decoration: none;
+  color: #737373;
+}
